@@ -54,4 +54,6 @@ frameworkversions.csv
 .vscode/settings.json
 .vscode/tasks.json
 .gitignore
-.gitignore
+.gitignore".env" 
+bin/
+obj/
