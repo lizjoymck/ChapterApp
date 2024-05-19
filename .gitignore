@@ -57,3 +57,6 @@ frameworkversions.csv
 .gitignore".env" 
 bin/
 obj/
+.DS_Store
+<AndroidSdkPath>/
+<JavaSdkPath>
