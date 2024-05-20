@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using ChapterApp.ViewModel;
 
 namespace ChapterApp
 {
@@ -14,6 +15,10 @@ namespace ChapterApp
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+
+            // registering services
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<MainViewModel>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
